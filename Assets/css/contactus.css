@@ -1,0 +1,27 @@
+.contactus_head{
+    height:400px;
+    color:white;
+    text-align: center;
+    
+  }
+  .contactus_link:hover{
+    color:rgb(105, 105, 236);
+  }
+  .contactus_link{ 
+    color:white;
+    text-decoration: none;
+  } 
+  
+  .contactus_submit:hover{
+    color:rgb(89, 89, 231);
+    background-color: white;
+  }
+
+  .contactus_top{
+    margin-top: 150px;
+  }
+ .contactus_heading{
+    font-weight: 900;
+    font-size:50px ;
+  }
+  

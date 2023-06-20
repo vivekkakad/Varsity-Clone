@@ -1,0 +1,35 @@
+.event {
+    height: 400px;
+    background-color: white;
+}
+
+.events_head {
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+
+/* .event_link:hover {
+    color: rgb(0, 106, 255);
+} */
+
+.event_link {
+    color: white;
+    text-decoration: none;
+}
+
+.margintop {
+    position: relative;
+    top: 150px;
+}
+
+.events_heading {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.subheading {
+    font-weight: 900px;
+    font-size: 40px;
+
+}

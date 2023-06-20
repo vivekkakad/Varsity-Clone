@@ -1,0 +1,735 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* sub_header style(header section) */
+.sub_header {
+    background-color: #f6f7fa;
+    width: 100%;
+}
+
+
+
+/* to hover on  navbarlink */
+.Header_cont {
+    position: relative;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.Header_dropdwn {
+    height: auto;
+    width: 200px;
+    position: absolute;
+    display: none;
+}
+
+.Header_anchor {
+    display: block;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.Header_cont:hover .Header_dropdwn {
+    display: block;
+}
+
+.Header_cont a:hover {
+    color: blue;
+}
+
+
+/* in banner to give the style */
+
+.carousel-caption {
+    margin-bottom: 100px;
+    font-family: Cascadia code;
+}
+
+/* h1 heading style apply(banner section) */
+.Header_h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+/* to give the animation in banner section heading h1 and h4 */
+.Header_h1,
+.Header_h4 {
+    animation: animation1 1.8s ease-in-out alternate;
+    position: relative;
+}
+
+@keyframes animation1 {
+    from {
+        top: 0px;
+        right: 0px;
+    }
+
+    to {
+        top: 50px;
+        right: 250px;
+    }
+
+}
+
+
+/* button-width */
+.Header_aWidth {
+    width: 200px;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    border: 3px solid #ffffff;
+}
+
+/* style on Home_Form */
+
+.Home_form1 {
+    padding: 30px;
+    height: 450px;
+    width: 300px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 23px 11px 300px 24px rgb(243, 241, 241);
+    -moz-box-shadow: 23px 11px 300px 24px rgb(246, 240, 246);
+    box-shadow: 23px 11px 300px 24px rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+
+
+
+
+/* readingBook Man-> */
+.Home_para {
+    border-radius: 50px;
+    border: 1px solid blue;
+    background-color: #2575ff;
+    width: 100px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    text-align: center;
+    z-index: 2;
+
+}
+
+/* animation for YellowCircle  */
+.Home_yellowCircle {
+    position: absolute;
+    border-radius: 10px;
+    top: -30px;
+    left: 30px;
+    animation: yellowCircle 3s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes yellowCircle {
+    from {
+        top: -30px;
+    }
+
+    to {
+        left: 50px;
+        top: 10px;
+        /* left:20px */
+    }
+}
+
+/* Browse online courses-> */
+.Home_bg1 {
+    background-color: #eefff4;
+    height: 200px;
+}
+
+.Home_bg2 {
+    background-color: #ffeef4;
+    height: 200px;
+}
+
+.Home_bg3 {
+    background-color: #fff9ed;
+    height: 200px;
+}
+
+.Home_bg4 {
+    background-color: #eefff4;
+    height: 200px;
+}
+
+
+/* in card $110 we give the style */
+.Header_course_btn {
+    background-color: rgb(97, 97, 253);
+    border: 1px solid blue;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+/* courses section change background color */
+.Header_courses {
+    background-color: #f3f4f7;
+}
+
+.Header_h6{
+    color:black;
+}
+/* h6-hover */
+.Header_h6:hover {
+    color: rgb(0, 94, 255)
+}
+
+
+/* top instructor section */
+.Home_imageCard {
+    position: relative;
+}
+
+.Home_iconlist {
+    position: absolute;
+    z-index: 1;
+    padding-top: 50px;
+}
+
+.Home_imageCard:hover {
+    z-index: 2;
+}
+
+/* hover effect all card */
+/* .Header_ho:hover { */
+/* text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important; */
+/* transform: scale(1.1) !important; */
+
+/* box-shadow: 2px 3px 2px 3px  rgb(235, 233, 233);
+    transition: all 0.3s ease !important;
+} */
+.Header_ho:hover {
+    /* text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    transform: scale(1.1) !important;  */
+
+    box-shadow: 2px 3px 2px 3px rgb(198, 196, 196);
+    transition: all 0.3s ease !important;
+}
+
+
+/* hover effect all card */
+.Header_ho1:hover {
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    transform: translateY(-10px) !important;
+}
+
+/* Form-style */
+
+.Header_icon {
+    color: blue;
+}
+
+ul li i:hover {
+    color: rgb(0, 51, 255);
+    padding: 2px;
+}
+
+/* all button to give the style */
+.Header_btn:hover {
+    background-color: #ffffff;
+    color: blue;
+}
+
+.card_hover:hover {
+    background-color: #ffffff!important;
+    -webkit-box-shadow: 23px 11px 300px 24px rgb(199, 196, 196) !important;
+    -moz-box-shadow: 23px 11px 300px 24px rgb(246, 240, 246) !important;
+    box-shadow: 23px 11px 300px 24px rgb(193, 193, 193) !important;
+}
+
+
+/* All courses- course-categories section */
+.Category_hover {
+    color: black;
+}
+
+.Category_hover:hover {
+    color: blue;
+}
+
+.Category_heading {
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.Category_Input {
+    position: relative;
+}
+
+.Search_icon {
+    position: absolute;
+    top: 25%;
+    left: 270px;
+}
+
+.Category_price {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 200px;
+}
+
+.Category_img {
+    position: relative;
+}
+
+.Category_anchor {
+    position: absolute;
+    top: 48%;
+    left: 105px;
+    background-color: #2575ff;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: right;
+
+}
+
+.category_hov:hover {
+    box-shadow: 5px 2px 7px 5px rgb(106, 106, 106);
+    transition: all 0.3s ease !important;
+
+}
+
+
+/* History & Philosophy */
+.bg_history {
+    background-color: #442e66;
+    padding: 40px;
+    padding-left: 110px;
+    color: white;
+
+}
+
+.Adam_Fs {
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.Adam_Fs:hover {
+    color: blue;
+}
+
+.btn-bg {
+    background-color: #f4f5f8;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.bg_relative {
+    position: relative;
+}
+
+.card_historyP {
+    position: absolute;
+    top: 220px;
+    right: 50px;
+    /* background-color: #dedbdb; */
+    /* -webkit-box-shadow: 23px 11px 300px 24px rgb(199, 196, 196); */
+    /* -moz-box-shadow: 23px 11px 300px 24px rgb(246, 240, 246); */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer CSS-> */
+
+/* motivation part */
+.m-box {
+    height: 50px;
+    width: 250px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+/* fotter part */
+.fh:hover {
+    color: blue !important;
+    cursor: pointer;
+}
+
+.f-animation1 {
+    float: left;
+    animation-name: demo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes demo {
+    form {
+        left: 0px;
+        right: 0px;
+    }
+
+    to {
+        left: 10px;
+        right: 30px;
+    }
+}
+
+.f-animation2 {
+    float: left;
+    animation-name: demo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes demo {
+    form {
+        top: 0px;
+        bottom: 0px;
+    }
+
+    form {
+        top: 20px;
+        bottom: 20px;
+    }
+}
+
+/* student review part */
+.review-a {
+    background-color: #ffffff;
+    opacity: 0.1;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: -1;
+
+    animation-name: demo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes demo {
+    form {
+        left: 0px;
+        right: 0px;
+    }
+
+    to {
+        left: 2px;
+        right: 2px;
+    }
+}
+
+.Footer_slider_pad {
+    padding-left: 120px;
+}
+
+.f-padding {
+    padding-left: 100px;
+}
+
+
+
+
+
+/* Testimonial page */
+.testimonial-bg-i {
+
+    background-image: url("../images/breadcrumb-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100vw;
+}
+
+.testmonial-margine {
+    margin-top: 180px !important;
+
+}
+
+.live-class-bg {
+
+    background-image: url("../images/breadcrumb-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100vw;
+}
+
+.live-class-margine {
+    margin-top: 180px !important;
+
+}
+
+.live-class-p {
+    padding-left: 200px !important;
+}
+
+
+/* All Courses->Course List CSS */
+
+.courselist-cont {
+    margin-left: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.search-bar {
+    width: 300px;
+    height: 20px;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 7px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+
+}
+
+
+.courselist-col-lg-3 {
+    display: inline-block;
+    width: 250px;
+    margin: auto;
+    margin-left: 20px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.courselist-card {
+    margin: 10px;
+    width: 250px;
+}
+
+.courselist-card-img-overlay {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-left: 60px;
+    color: aliceblue;
+    align-items: center;
+    font-size: 25px;
+}
+
+.card-title {
+    font-size: 15px;
+    color: blue;
+}
+
+/* .header {
+    font-size: 16px;
+} */
+
+h6:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+/* .courselist-image:hover {
+    background-color: rgb(194, 179, 179);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all is case;
+} */
+/* .button {
+    margin-left: 100px;
+} */
+
+
+
+
+
+
+
+/* join live classes */
+.site-content {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+
+}
+
+.main {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+/* left hand side code */
+
+.col-xl-8 {
+    padding-right: 10px;
+
+
+}
+
+/* image css */
+.imglive {
+    position: relative;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    display: flexbox;
+    width: 100%;
+}
+
+/* left handside pragraphs */
+.pragraph {
+    vertical-align: top;
+    position: relative;
+    /* display: flexbox; */
+    width: 100%;
+}
+
+/* righthand side  */
+
+.col-xl-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* countdown box */
+.values {
+    width: 100%;
+    height: 100px;
+    margin-left: 10px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.timer {
+    width: 50%;
+    /* padding: 10px; */
+    margin-right: 6px;
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* sidebar box */
+.sidebar-box {
+
+    width: 400px;
+    /* padding: 10px;  */
+    margin-top: 24px;
+
+}
+
+.sidebar-tile {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+}
+
+.sidebar-content {
+    padding: 16px;
+    background-color: #f7f6fa;
+}
+
+.sidebar-content-list {
+
+    margin-bottom: 16px;
+    color: black;
+
+
+}
+
+/* join live class link */
+.a:first-child {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: brown;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    border: 0.08px solid brown;
+    color: azure;
+    font-size: 20px;
+}
+
+.a:last-child {
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: brown;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    border: 0.08px solid brown;
+    color: azure;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+/* myProfile */

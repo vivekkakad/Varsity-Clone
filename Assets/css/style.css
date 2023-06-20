@@ -1,0 +1,240 @@
+.thumbnail {
+    position: relative;
+}
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+.caption p{
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.caption-inner a{
+    color:#ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.caption-inner span{
+    font-size: 16px;
+    color:#ffffff;
+}
+/*
+.fa-chevron-right {
+    content: "\f054";
+}
+*/
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    color:#ffffff;
+   
+}
+
+.crd{
+    margin:30px 30px;
+    border-radius: 5px;
+}
+.crd:hover {
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    transform: translateY(-10px) !important;
+}
+
+.card-title-o a{
+    color: #0b1c39;
+    font-size: 25px;
+    /*line-height: 1.4;*/
+    font-weight: 600;
+    margin-bottom: 28px;
+    text-decoration: none;
+}
+.card-title-o a:hover{
+    color:#2572ff;
+    font-weight: 700;
+    
+}
+.crd #arrow{
+    width: 20px;
+    height: 20px;
+}
+.crd a{
+color: #0b1c39;
+text-decoration: none;
+font-family: "Poppins", sans-serif;
+}
+.crd a:hover{
+    color:#2572ff;
+}
+.card-body-b{
+    padding: 15px 20px 20px;
+    background-color: #f8f9fb;
+}
+
+.card-body-b p{
+display:inline-block;
+}
+.card-text-t{
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #626a77;
+    font-family: "Poppins", sans-serif;
+}
+.post_author p{
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #626a77;
+    font-family: "Poppins", sans-serif;
+}
+
+.post_author #icon_clock{
+    height:15px;
+    width:15px;
+}
+
+.post_author #icon_profile{
+    height:20px;
+    width:20px;
+}
+
+.pagination {
+    
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.5rem;
+}
+.pagination .page-item img{
+    width: 20px;
+    height: 20px;
+}
+/*
+.container .justify-content-center{
+    
+    justify-content: center!important;
+}
+
+.align-items-center {
+    align-items: center!important;
+}*/
+/*
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}*/
+.col-lg-8, .col-lg-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.crd-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cta-part {
+    background-color: #2572ff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.cta-part .cta-part-inner h2 {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    color: #fff;
+}
+.cta-part .cta-part-inner p {
+    font-size: 24px;
+    margin-top: 25px;
+    color: #fff;
+}
+.btn_3 {
+    color: #2572ff;
+    border: 2px solid #7aa8fd;
+    display: inline-block;
+    padding: 14px 39px;
+    text-transform: capitalize;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: #fff;
+    white-space: nowrap;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.cta_btn {
+    float: right;
+}
+.cta_part .cta_btn .btn_3 {
+    box-shadow: 0px 20px 40px 0px rgba(2, 25, 55, 0.2);
+    padding: 19px 42px;
+    border: 2px solid #fff;
+}
+
+.btn_3:hover {
+    background-color: #ffffff;
+    color:blue;
+}
+
+.cta-part .circle_shape_1 {
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    opacity: 0.08;
+    position: absolute;
+    right: 260px;
+    bottom: -200px;
+    width: 325px;
+    height: 325px;
+    -webkit-animation: circleAnimation 5s linear infinite;
+    animation: circleAnimation 5s linear infinite;
+    z-index: -1;
+}
+
+.cta-part .circle_shape_2 {
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    opacity: 0.1;
+    position: absolute;
+    right: -100px;
+    bottom: -120px;
+    width: 474px;
+    height: 425px;
+    -webkit-animation: circleAnimation 7s linear infinite;
+    animation: circleAnimation 7s linear infinite;
+    z-index: -1;
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+[data-aos][data-aos][data-aos-duration="1200"], body[data-aos-duration="1200"] [data-aos] {
+    transition-duration: 1.2s;
+}
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: ease;
+}
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: .4s;
+}
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity,transform;
+}
+

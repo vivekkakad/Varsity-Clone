@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* sub_header style(header section) */
+.sub_header {
+    background-color: #f3f4f7;
+}
+/* to hover on  navbarlink */
+.Header_cont{
+    position: relative;
+    line-height: 20px;
+    cursor: pointer;
+}
+.Header_dropdwn{
+    height:auto;
+    width:200px;
+    position: absolute;
+    display: none;
+}
+.Header_anchor{
+   display: block;
+   text-align: center;
+   padding-left: 5px;
+}
+
+.Header_cont:hover .Header_dropdwn{
+    display: block;
+}
+.Header_cont a:hover{
+    color:blue;
+}
+
+#container{
+    width: 100%;
+    padding: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    background-image: url(../images/bgi.png);
+    opacity: 0.9;
+}
+h1{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.discription{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #626a77;
+    font-family: "Poppins", sans-serif
+}
+.breadcrumb_iner_link a {
+        font-size: 16px;
+        color: #fff;
+     }
+h2 {
+    color:black;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    line-height: 32px;
+    font-family: "Poppins", sans-serif
+}
+.card-discription{
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #626a77;
+    font-family: "Poppins", sans-serif
+}
+  
+  /* footer part */
+#containerfooter{
+    background-color: rgb(193, 214, 228);
+}
+.fh:hover{
+    color: blue !important;
+    cursor: pointer;
+}
+.f-animation1{
+    float: left;
+    animation-name: demo;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+}
+@keyframes demo{
+    form{left:0px ;right: 0px;}
+    to{left: 10px;right: 30px;}
+}
+.f-animation2{
+    float: left;
+    animation-name: demo;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+}
+@keyframes demo{
+   form{top: 0px;bottom: 0px;}
+   form{top: 20px;bottom: 20px;}
+}
+/* student review part */
+.review-a{
+    background-color: #ffffff;
+    opacity: 0.1;
+    border-radius: 50%;
+    height: 300px;
+    width:300px;
+    position:absolute ;
+    z-index:-1;
+    
+    animation-name: demo;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+}
+@keyframes demo{
+   form{left:0px;right:0px;}
+   to{left:2px;right: 2px;}
+}
+
+.Footer_slider_pad{
+      padding-left:120px;
+}
+.pt-3{
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #626a77;
+    font-family: "Poppins", sans-serif   
+}

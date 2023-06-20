@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../../Assets/css/vStyle.css">
+    <link rel="stylesheet" href="../../Assets/css/event.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Varsity</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="sub_header">
+            <div class="container">
+                <div class="row p-4">
+                    <div class="col-lg-9">
+                        <div class="contact">
+                            <i class="fa fa-phone Header_icon"></i>
+                            <a class="text-decoration-none ps-3 pe-5" href="tel:+464 145 684 325">+464 145 684 325</a>
+                            <i class="fa fa-envelope-o Header_icon"></i>
+                            <a class="text-decoration-none ps-3"
+                                href="mailto:varsity@example.com">varsity@example.com</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="login">
+                            <a class="text-decoration-none" href="../Myprofile/become_teacher.html">Become A Teacher</a>
+                            <a class="text-decoration-none ms-4 p-3" href="../Myprofile/myProfile.html">My Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar section-->
+        <div class="main_nav p-4">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-2 ">
+                        <a href="../Home/index.html" class="ps-3" target=""><img
+                                src="../../Assets/images/HomePage_logo.png"></a>
+                    </div>
+                    <div class="col-lg-7 fs-5">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item dropdown Header_cont">
+                                <a class="nav-link  dropdown-toggle Header_anchor " data-bs-toggle="dropdown" href="#"
+                                    role="button" aria-expanded="false">Home</a>
+                                <ul class="dropdown-menu Header_dropdwn">
+                                    <li><a class="dropdown-item" href="../Home/index.html">Homepage style One</a></li>
+                                    <li><a class="dropdown-item" href="../Home/index.html">Homepage Style Two</a></li>
+                                    <li><a class="dropdown-item" href="../Home/index.html">One Page Home</a></li>
+                                    <li><a class="dropdown-item" href="../Home/index.html">Dark Homepage</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item Header_cont">
+                                <a class="nav-link  text-dark dropdown-toggle Header_anchor " data-bs-toggle="dropdown"
+                                    href="#" role="button" aria-expanded="false">All
+                                    Courses</a>
+                                <ul class="dropdown-menu Header_dropdwn">
+                                    <li><a class="dropdown-item" href="../AllCourses/courselist.html">Course List</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../AllCourses/computerSecurity.html">Course Details</a></li>
+                                    <li><a class="dropdown-item" href="../AllCourses/courseCategory.html">Course
+                                            Category</a></li>
+                                    <li><a class="dropdown-item " href="../AllCourses/chekout.html">Checkout</a></li>
+                                    <li><a class="dropdown-item disabled" href="#">Lessons</a></li>
+                                    <li><a class="dropdown-item disabled" href="#">Quizees</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item Header_cont">
+                                <a class="nav-link  text-dark dropdown-toggle Header_anchor" data-bs-toggle="dropdown"
+                                    href="#" role="button" aria-expanded="false">Blog
+                                    Classic</a>
+                                <ul class="dropdown-menu Header_dropdwn">
+                                    <li><a class="dropdown-item" href="../Blog CLassic/blogGrid.html">Blog Grid</a></li>
+                                    <li><a class="dropdown-item" href="../Blog CLassic/Blog slider.html">Blog Slider</a>
+                                    </li>
+                                    <li><a class="dropdown-item disabled" href="#">Blog Left Slider</a></li>
+                                    <li><a class="dropdown-item disabled" href="#">Blog Right Slider</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item Header_cont">
+                                <a class="nav-link  text-dark dropdown-toggle pe-4 Header_anchor"
+                                    data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pages</a>
+                                <ul class="dropdown-menu Header_dropdwn">
+                                    <li><a class="dropdown-item" href="../Pages/aboutus.html">About Us</a></li>
+                                    <li><a class="dropdown-item" href="../Pages/events.html">Events</a></li>
+                                    <li><a class="dropdown-item" href="../Pages/Top_Instructor.html">Instructor</a></li>
+                                    <li><a class="dropdown-item" href="../Pages/testimonial.html">Testimonial</a></li>
+                                    <li><a class="dropdown-item" href="../Pages/live class.html">Live Classes</a></li>
+                                    <li><a class="dropdown-item" href="../Pages/404 page.html">404 Page</a></li>
+                                </ul>
+                            </li>
+                            <a class="text-decoration-none  text-dark mt-1 pe-5"
+                                href="../Contact Us/contactus.html">Contact
+                                Us</a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="../JoinLiveClass/joinliveclass.html"
+                            class="btn btn-primary w-75 rounded-5 fs-5 text-center Header_btn">Join Live
+                            Class</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header Section Exit  -->
+
+
+
+    <!-- Banner Section -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item  active">
+                <img src="../../Assets/images/Home_banner_1.png
+                " class="d-block w-100 position-relative" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4 class="fw-100 Header_h4">WELCOME TO OUR ORGANIZATION</h4>
+                    <h1 class="Header_h1">Education is the <br>Backbone of a nation</h1>
+                    <a href="../AllCourses/courselist.html" class="btn btn-outline-primary Header_aWidth ">Our class</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../../Assets/images/Home_banner_2.png" class="d-block w-100  position-relative" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4 class="fw-100 Header_h4">WELCOME TO OUR ORGANIZATION</h4>
+                    <h1 class="Header_h1">Education is Best Key <br>Success in life</h1>
+                    <a href="../AllCourses/courselist.html" class="btn btn-outline-primary Header_aWidth">Our class</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../../Assets/images/Home_banner_3.jpg" class="d-block w-100  position-relative" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4 class="fw-100 Header_h4">WELCOME TO OUR ORGANIZATION</h4>
+                    <h1 class="Header_h1">Education is Best Key <br>Success in life</h1>
+                    <a href="../AllCourses/courselist.html" class="btn btn-outline-primary Header_aWidth">Our class</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Banner Section Exit -->
+
+    <!-- Main Section -->
+
+    <main>
+        <div class="container mt-4" >
+            <div class="row justify-content-between ">
+                <div class="col-lg-3">
+                    <img src="../../Assets/images/Home_redBook.svg" width="50">
+                    <h3>Next Scheduled</h3>
+                    <p>Tosser what plonker mufty squiffy the wireless the monty.</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="../../Assets/images/Home_onlineCourse.svg" width="50">
+                    <h3>Online Courses</h3>
+                    <p>Tosser what plonker mufty squiffy the wireless the monty.</p>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class=" Home_form1  position-absolute  top-100">
+                        <h3>Registration for Course Enroll</h3>
+                        <form action="" method="">
+                            <input type="text" class="mb-2 form-control rounded-5 p-2 ps-2 mt-4 sub_header" name="Name"
+                                placeholder="Name">
+                            <input type="text" class="mb-2 form-control rounded-5 p-2 ps-2 mt-3 sub_header" name="Email"
+                                placeholder="Email">
+                            <input type="text" class="mb-2 form-control rounded-5 p-2 ps-2 mt-3 sub_header" name="Phone"
+                                placeholder="Phone">
+                            <select class="mb-2 rounded-5 p-2 ps-2  mt-3 sub_header form-select">
+                                <option value="">Course Name</option>
+                                <option value="">Course Name 1</option>
+                                <option value="">Course Name 2</option>
+                                <option value="">Course Name 3</option>
+                            </select>
+                            <button class="btn btn-primary m-auto mt-3 p-2 rounded-5 w-100  Header_btn">Apply
+                                Now</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <img src="../../Assets/images/Home_graduation.svg" width="50">
+                    <h3>Graduation</h3>
+                    <p>Tosser what plonker mufty squiffy the wireless the monty.</p>
+                </div>
+                <div class="col-lg-8 mt-5">
+                    <img src="../../Assets/images/Home_university.svg" width="50">
+                    <h3>University Life</h3>
+                    <p>Tosser what plonker mufty squiffy the<br> wireless the monty.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+
+        </div>
+        </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6 position-relative mt-5">
+                    <div class="Home_para"><br>
+                        <p class="text-uppercase text-center my-auto">Trusted By</p>
+                        <span class="fw-bold fs-4">50k+</span>
+                    </div>
+                    <img src="../../Assets/images/Home_YellowCircle.png" width="45" class="Home_yellowCircle">
+                    <img src="../../Assets/images/Home_ReadingBook.png" alt="">
+                </div>
+                <div class="col-lg-6 ms-auto pt-5 mt-5">
+                    <h2 style="font-size: 50px;" class="mt-5">We are Experts <br> Learning Institution</h2>
+                    <h3 class="text-primary opacity-75">20 Years of Experience</h3>
+                    <p> Do one absolutely bladdered say bugger all mate only a quid that<br>
+                        chip shop amongst, cuppa excuse my French lemon squeezy bender<br>
+                        zonked my lady gosh cup of tea, have it spiffing good time naff<br>
+                        wind up codswallop crikey.</p>
+                    <h3 class="text-primary opacity-75">Call Us +456 968 562 75</h3>
+                    <a href="../AllCourses/courselist.html"
+                        class="btn btn-primary mt-3 p-2 w-25 rounded-start-5 rounded-end-5 Header_btn ">View
+                        Courses</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Browse Online course -->
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-lg-12 text-center mt-5">
+                    <h2 class="fw-bolder">Browse Online
+                        <br>
+                        Course Categories
+                    </h2>
+                    <p>Jeffrey crikey victoria sponge mush spiffing >super arse over tit matie boy <br>smashing.The
+                        little
+                        rotter off his nut codswallop.!</p>
+                </div>
+            </div>
+
+            <div class="row text-center justify-content-center mt-5">
+                <div class="col-lg-3 Header_ho1">
+                    <div class=" Home_bg1 pt-4">
+                        <a href="#" class="text-decoration-none text-success">
+                            <img src="../../Assets/images/Home_category_icon_4.png">
+                            <h5>Language Learning</h5>
+                            <p>1 Course</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 Header_ho1">
+                    <div class="Home_bg2 pt-4">
+                        <a href="#" class="text-decoration-none text-danger ">
+                            <img src="../../Assets/images/Home_category_icon_1.png">
+                            <h5>Arts and Huminiaties</h5>
+                            <p>1 Course</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 Header_ho1">
+                    <div class="Home_bg3 pt-4">
+                        <a href="#" class="text-decoration-none text-warning ">
+                            <img src="../../Assets/images/Home_category_icon_3.png">
+                            <h5>Data Science</h5>
+                            <p>2 Course</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 Header_ho1">
+                    <div class="Home_bg4 pt-4">
+                        <a href="#" class="text-decoration-none text-success ">
+                            <img src="../../Assets/images/Home_category_icon_4.png">
+                            <h5>Business</h5>
+                            <p>1 Course</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-2 Header_ho1">
+                    <div class="Home_bg4 pt-4">
+                        <a href="#" class="text-decoration-none text-success ">
+                            <img src="../Assets/images/Home_category_icon_4.png">
+                            <h5>Business</h5>
+                            <p>1 Course</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 Header_ho1">
+                    <div class="Home_bg4 pt-4">
+                        <a href="#" class="text-decoration-none text-success ">
+                            <img src="../Assets/images/Home_category_icon_4.png">
+                            <h5>Business</h5>
+                            <p>1 Course</p>
+                        </a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!--Browse Online Course Exit  -->
+
+        <!-- courses Section -->
+        <div class="Header_courses">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-12 text-center mt-5">
+                        <h2 class="fw-bolder">Explore Our
+                            <br>
+                            Popular Courses
+                        </h2>
+                        <p>Jeffrey crikey victoria sponge mush spiffing >super arse over tit matie boy <br>smashing.The
+                            little
+                            rotter off his nut codswallop.!</p>
+                    </div>
+
+                    <!-- Swiper card -->
+
+                    <div class="col-lg-3 mt-5">
+                        <div class="card card_hover border border-0">
+                            <img src="../../Assets/images/Home_businessImg.png" class="card-image-top">
+                            <div class="card-body">
+                                <a class="Header_course_btn me-5">$110</a>
+                                <img src="../../Assets/images/Home_starImages.jpeg" class="ms-5" width="80">
+                            </div>
+                            <div class="card-title">
+                                <h6 class="ms-3 Header_h6">Business Essential</h6>
+                                <br>
+                                <img src="../../Assets/images/Home_adam.png" width="30"
+                                    class="rounded-circle ms-2"><span class="ms-2 text-dark">Adam Smith</span>
+                            </div>
+                            <div class="card-footer">
+                                <p>
+                                    <img src="../../Assets/images/Home_Bbimg.jpeg" width="20">
+                                    <span>0 Lessons</span>
+                                    <img src="../../Assets/images/Icon_clock.jpeg" class="ms-5" width="20">
+                                    <span>10 Weeks</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-5">
+                        <div class="card card_hover border border-0">
+                            <img src="../../Assets/images/Home_DataAnalyst.png" class="card-image-top">
+                            <div class="card-body">
+                                <a class="Header_course_btn me-5">$125</a>
+                                <img src="../../Assets/images/Home_starImages.jpeg" class="ms-5" width="80">
+                            </div>
+                            <div class="card-title">
+                                <a href="../AllCourses/DataAnalyst.html" class="ms-3  text-decoration-none Header_h6">Data Analyst</h6></a>
+                                <br>
+                                <img src="../../Assets/images/Home_adam.png" width="30"
+                                    class="rounded-circle ms-2"><span class="ms-2 text-dark">Adam Smith</span>
+                            </div>
+                            <div class="card-footer">
+                                <p>
+                                    <img src="../../Assets/images/Home_Bbimg.jpeg" width="20">
+                                    <span>0 Lessons</span>
+                                    <img src="../../Assets/images/Icon_clock.jpeg" class="ms-5" width="20">
+                                    <span>10 Weeks</span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 mt-5">
+                        <div class="card card_hover border border-0">
+                            <img src="../../Assets/images/Home_History.png" class="card-image-top">
+                            <div class="card-body">
+                                <a class="Header_course_btn me-5">$110</a>
+                                <img src="../../Assets/images/Home_starImages.jpeg" class="ms-5" width="80">
+                            </div>
+                            <div class="card-title">
+                                <h6 class="ms-3 Header_h6">History & Philosophy</h6>
+                                <br>
+                                <img src="../../Assets/images/Home_adam.png" width="30"
+                                    class="rounded-circle ms-2"><span class="ms-2 text-dark">Adam Smith</span>
+                            </div>
+                            <div class="card-footer">
+                                <p>
+                                    <img src="../../Assets/images/Home_Bbimg.jpeg" width="20">
+                                    <span>0 Lessons</span>
+                                    <img src="../../Assets/images/Icon_clock.jpeg" class="ms-5" width="20">
+                                    <span>10 Weeks</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-5">
+                        <div class="card card_hover border border-0">
+                            <img src="../../Assets/images/Home_BusinessStratergy.png" class="card-image-top">
+                            <div class="card-body">
+
+                                <a class="Header_course_btn me-5">$110</a>
+                                <img src="../../Assets/images/Home_starImages.jpeg" class="ms-5" width="80">
+
+                            </div>
+                            <div class="card-title">
+                                <h6 class="ms-3 Header_h6">Business Stratergy</h6>
+                                <br>
+                                <img src="../../Assets/images/Home_adam.png" width="30"
+                                    class="rounded-circle ms-2"><span class="ms-2 text-dark">Adam Smith</span>
+                            </div>
+                            <div class="card-footer">
+                                <p>
+                                    <img src="../../Assets/images/Home_Bbimg.jpeg" width="20">
+                                    <span>0 Lessons</span>
+                                    <img src="../../Assets/images/Icon_clock.jpeg" class="ms-5" width="20">
+                                    <span>10 Weeks</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Top Instructor Section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mt-5">
+                    <h2 class="fw-bolder">Top Instructor</h2>
+                    <p>Jeffrey crikey victoria sponge mush spiffing >super arse over tit matie boy <br>smashing.The
+                        little
+                        rotter off his nut codswallop.!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 mt-5">
+                    <div class="card card_hover border border-0">
+                        <img src="../../Assets/images/Home_Dalyan.png" class="card-image-top Home_imageCard">
+                        <ul class="Home_iconlist">
+                            <li class="list-unstyled mt-5"><i style='font-size:24px'
+                                    class='fab border border-1 rounded-5 p-2  bg-white'>&#xf39e;</i></li>
+                            <li class="list-unstyled mt-2"><i
+                                    class='fab fa-twitter border border-1 rounded-5 p-2  bg-white'></i></li>
+                            <li class="list-unstyled mt-2"><i
+                                    class='fab fa-instagram border border-1 rounded-5 p-2  bg-white'></i></li>
+                            <li class="list-unstyled mt-2"><i
+                                    class='fab fa-linkedin-in border border-1 rounded-5 p-2  bg-white'></i></li>
+                        </ul>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h6 class="Header_h6"> Dylan Meringue</h6>
+                                <div class="card-subtitle">
+                                    <p>Sales Director</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <div class="card card_hover border border-0">
+                        <img src="../../Assets/images/Home_chauffina.png" class="card-image-top Home_imageCard">
+                        <ul class="Home_iconlist">
+                            <li class="list-unstyled mt-5"><i style='font-size:24px'
+                                    class='fab border border-1 rounded-5 p-2  bg-white'>&#xf39e;</i></li>
+                            <li class="list-unstyled mt-2"><i
+                                    class='fab fa-twitter border border-1 rounded-5 p-2  bg-white'></i></li>
+                            <li class="list-unstyled mt-2"><i
+                                    class='fab fa-instagram border border-1 rounded-5 p-2  bg-white'></i></li>
+                            <li class="list-unstyled mt-2"><i
+                                    class='fab fa-linkedin-in border border-1 rounded-5 p-2  bg-white'></i></li>
+                        </ul>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h6 class="Header_h6">Chauffina Carr</h6>
+                                <div class="card-subtitle">
+                                    <p>Mathematics</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <div class="card card_hover border border-0">
+                        <img src="../../Assets/images/Home_jason.png" class="card-image-top Home_imageCard">
+                        <ul class="Home_iconlist">
+                            <li class="list-unstyled mt-5"><i style='font-size:24px'
+                                    class='fab border border-1 rounded-5 p-2  bg-white'>&#xf39e;</i></li>
+                            <li class="list-unstyled mt-2"><i
+                                    class='fab fa-twitter border border-1 rounded-5 p-2  bg-white'></i></li>
+                            <li class="list-unstyled mt-2"><i
+                                    class='fab fa-instagram border border-1 rounded-5 p-2  bg-white'></i></li>
+                            <li class="list-unstyled mt-2"><i
+                                    class='fab fa-linkedin-in border border-1 rounded-5 p-2  bg-white'></i></li>
+                        </ul>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h6 class="Header_h6"> Jason Response</h6>
+                                <div class="card-subtitle">
+                                    <p>Marketing</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <div class="card card_hover border border-0">
+                        <img src="../../Assets/images/Home_hanson.png" class="card-image-top Home_imageCard">
+                        <ul class="Home_iconlist">
+                            <li class="list-unstyled mt-5"><i style='font-size:24px'
+                                    class='fab border border-1 rounded-5 p-2  bg-white'>&#xf39e;</i></li>
+                            <li class="list-unstyled mt-2"><i
+                                    class='fab fa-twitter border border-1 rounded-5 p-2  bg-white'></i></li>
+                            <li class="list-unstyled mt-2"><i
+                                    class='fab fa-instagram border border-1 rounded-5 p-2  bg-white'></i></li>
+                            <li class="list-unstyled mt-2"><i
+                                    class='fab fa-linkedin-in border border-1 rounded-5 p-2  bg-white'></i></li>
+                        </ul>
+                        <div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h6 class="Header_h6">Hanson Deck</h6>
+                                <div class="card-subtitle">
+                                    <p>IT Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+        <section>
+            <div class="container-fluid sub_header mt-5">
+                <div class="row">
+                    <div class="col-lg-4 ms-auto pe-4">
+                        <h2>Your motivition &<br> attention will teach<br> you best</h2>
+                        <p>Cack gormless young delinquent that bits<br> and bobs he nicked it mush, spiffing
+                            smashing<br> he legged it have it codswallop.</p>
+                        <ul type="none" class="mt-5 me-5">
+                            <li>
+                                <a href="../../Assets/images/motivation2.png" target="xyz"
+                                    class="list-group-item list-group-item-action m-box fh">
+                                    <i class="fa fa-book ps-3"></i>
+                                    Graphics Design </a><br>
+                            </li>
+                            <li>
+                                <a href="../../Assets/images/motivation2.png" target="xyz"
+                                    class="list-group-item list-group-item-action m-box fh">
+                                    <i class="fa fa-bus ps-3"></i>
+                                    self Development </a><br>
+                            </li>
+                            <li>
+                                <a href="../../Assets/images/motivation3.png" target="xyz"
+                                    class="list-group-item list-group-item-action m-box fh">
+                                    <i class="fa fa-anchor ps-3"></i>
+                                    It & Software
+                                </a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- iframe and video part -->
+                    <div class="col-lg-7">
+                        <div class="card">
+                            <img src="../../Assets/images/movtivation1.png" class="card-image-top">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- motivtion part end -->
+
+        <!-- event part -->
+        <section>
+            <div class="container bg-light-subtle">
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 ">
+                        <h1 class="text-center mt-5 fw-bold fs-1">Our Upcoming Events</h1>
+                        <p class="text-center mb-2">Jeffrey crikey victoria sponge mush spiffing super arse over tit
+                            matie<br> boy smashing. The little rotter off his nut codswallop.!</p>
+                    </div>
+                </div>
+                <!-- event part one -->
+                <div class="row mt-5">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-3 justify-content-center pt-5 bg-white rounded ">
+                        <img src="../../Assets/images/event1.png">
+                    </div>
+                    <div class="col-lg-5 justify-content-center pt-5 pb-5 bg-white rounded  ">
+                        <h5 class="text-warning">14 JANUARY, 2022</h5>
+                        <h5>Why you Need Advance Developmemt Process Course?</h5>
+                        <p><i class="far fa-clock text-primary fh"></i>
+                            8.30 AM - 5.30 PM</p>
+                        <p class="mb-5"><i class="fa fa-map-marker text-primary fh"></i>
+                            9 Road, Mirpur Dohs, New York, USA</p>
+                        <p>He lost his bottle bamboozled golly gosh some dodgy chav only a quid my lady chip shop
+                            argy-bargy, the bee's knees morish loo get stuffed mate pardon me zonked knees.!</p>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+                <!-- event part 2    -->
+                <div class="row mt-5 " >
+                    <div class="col-lg-2"></div>
+
+                    <div class="col-lg-3 justify-content-center pt-5 bg-white rounded ">
+                        <img src="../../Assets/images/event2.png" alt="imgc">
+                    </div>
+                    <div class="col-lg-5 justify-content-center pt-5 pb-5 bg-white rounded ">
+                        <div>
+                            <h5 class="text-warning">1 APRIL, 2022</h5>
+                            <h2>Graphic Illustration: Design with Color and Shape</h2>
+                            <p><i class="far fa-clock text-primary fh"></i> 10.30 AM - 5.30 PM</p>
+                            <p class="mb-5"><i class="fa fa-map-marker text-primary fh"></i>19 Road, Dhanmondi Dohs,
+                                New
+                                York, USA </i></p>
+                            <p>He lost his bottle bamboozled golly gosh some dodgy chav only a quid my lady chip
+                                shop
+                                argy-bargy, the bee's knees morish loo get stuffed mate pardon me zonked knees.!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+                <!-- event part-3 -->
+                <div class="row mt-5"  >
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-3  justify-content-center pt-5 bg-white rounded">
+                        <img src="../../Assets/images/event3.png" alt="d">
+                    </div>
+                    <div class="col-lg-5 justify-content-center pt-5 pb-5 bg-white rounded">
+                        <div>
+                            <h5 class="text-warning">10 AUGUST, 2022</h5>
+                            <h2>Magazine Design Start to Finish: The Inside Pages</h2>
+                            <p><i class="far fa-clock text-primary fh"></i>12.30 AM - 5.30 PM</p>
+                            <p class="mb-5"><i class="fa fa-map-marker text-primary fh"></i>12 Road, Mohakhali Dohs, New
+                                York, USA</p>
+                            <p>He lost his bottle bamboozled golly gosh some dodgy chav only a quid my lady chip shop
+                                argy-bargy, the bee's knees morish loo get stuffed mate pardon me zonked knees.!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+                <!-- button part here -->
+                <div class="row">
+                    <div class="col-lg-5"></div>
+                    <div class="col-lg-2 justify-content-center ht">
+                        <a href="../Pages/events.html"
+                            class="btn btn-outline-primary btn-lg rounded-5 text-center w-100 mt-5 mb-5 ">View
+                            All
+                            Events </a>
+                        <div class="col-lg-5"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- student review part here -->
+
+        <!-- student review part here -->
+        <section>
+            <div class="container-fluid  bg-primary  text-white ">
+                <div class="row justify-content-center align-items-center ">
+                    <!-- <div class="col-lg-1"></div> -->
+                    <div class="col-lg-4 ps-5">
+                        <h1 class="h1 fw-bolder pb-3 pt-5">Student Say <br> About us</h1>
+
+                        <button type="button" class="btn btn-outline-dark border border-white rounded-circle">
+                            &larr;</button>
+                        <button type="button" class="btn btn-outline-dark border border-white rounded-circle">
+                            &rarr;</button>
+                        <img src="../../Assets/images/review img2.png" alt="2">
+                        <img src="../../Assets/images/review img1.png" alt="a" class="review-a  z-1 position-absolute ">
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active ps-5">
+                                    <p>"Loo faff about cockup Harry baking
+                                        cakes hunky-dory<br> mush, happy days on your bike mate cobblers say cor
+                                        <br>blimey guvnor brown bread, plastered cuppa bender<br> geeza chimney pot.
+                                        Haggle cheesed off butty say cup of<br> char spiffing good time bum bag so I
+                                        said gutted mate <br>the bee's knees queen's english.!"
+                                    </p>
+                                    <img src="../../Assets/images/reviewstudent1.jpg"
+                                        class="d-block w-20 rounded-circle" height="60px" alt=".s1.">
+                                    <h4>Adam Smith</h4>
+                                    <p>Manager</p>
+                                </div>
+                                <div class="carousel-item ps-5">
+                                    <p>"Loo faff about cockup Harry baking
+                                        cakes hunky-dory<br> mush, happy days on your bike mate cobblers say cor
+                                        <br>blimey guvnor brown bread, plastered cuppa bender<br> geeza chimney pot.
+                                        Haggle cheesed off butty say cup of<br> char spiffing good time bum bag so I
+                                        said gutted mate <br>the bee's knees queen's english.!"
+                                    </p>
+                                    <img src="../../Assets/images/reviewstudent2.png"
+                                        class="d-block w-20 rounded-circle" height="60px" alt=".s2.">
+                                    <h4>Lance Bogrol</h4>
+                                    <p>UX Designer</p>
+                                </div>
+                                <div class="carousel-item ps-5">
+                                    <p>"Loo faff about cockup Harry baking
+                                        cakes hunky-dory<br> mush, happy days on your bike mate cobblers say cor
+                                        <br>blimey guvnor brown bread, plastered cuppa bender<br> geeza chimney pot.
+                                        Haggle cheesed off butty say cup of<br> char spiffing good time bum bag so I
+                                        said gutted mate <br>the bee's knees queen's english.!"
+                                    </p>
+                                    <img src="../../Assets/images/reviewstudent1.jpg"
+                                        class="d-block w-20 rounded-circle" height="60px" alt=".s3.">
+                                    <h4>Adam Smith</h4>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!-- Main section exact -->
+
+
+
+    <!-- footer part here -->
+    <footer class="footer_section">
+        <div class="container pt-5">
+            <div class="row justify-content-between">
+                <div class="col-lg-2">
+                    <a href=""><img src="../../Assets/images/footerlogo.png" alt="logo"></a>
+                    <p class="pt-4">Loo faff about cockup Harry baking cakes hunky dory mush happy days on your bike
+                        mate.</p>
+
+                    <div class="footer_contact_info">
+                        <a href=" tel:46414568325" class="list-group-item list-group-item-action fh  text-primary">
+                            <img src="../../Assets/images/footercontact.png" alt="contact" height="20px">
+                            +464145684325</a>
+                    </div>
+
+                    <a href="mailto:versity@example.com"
+                        class="list-group-item list-group-item-action fh text-primary pt-2 pb-5"><img
+                            src="../../Assets/images/footeremail.png" alt="" height="20px"> versity@example.com</a>
+
+
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="pb-3 pt-2 text-center">POPULAR COURCES </h6>
+                    <ul type="none pe-auto">
+                        <a href="" class="list-group-item list-group-item-action fh">Algebra & Calculus</a>
+                        <a href="../AllCourses/businessStrategy.html"
+                            class="list-group-item list-group-item-action fh">Business
+                            Strategy</a>
+                        <a href="../AllCourses/computerSecurity.html" class="list-group-item list-group-item-action fh">Computer Security & Network</a>
+                        <a href="../AllCourses/DataAnalyst.html" class="list-group-item list-group-item-action fh">Data
+                            Analysis</a>
+                        <a href="" class="list-group-item list-group-item-action fh">English Learning</a>
+                        <a href="../AllCourses/music&Art.html" class="list-group-item list-group-item-action fh">Music &
+                            Art</a>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="pb-3 pt-2 ps-4"> COURSE CATEGORIES </h6>
+                    <ul type="none pe-auto">
+                        <a href="../AllCourses/courseCategory.html"
+                            class="list-group-item list-group-item-action fh">Arts &
+                            Humanities</a>
+                        <a href="../AllCourses/businessStrategy.html"
+                            class="list-group-item list-group-item-action fh">Business</a>
+                        <a href="../AllCourses/computerSecurity.html" class="list-group-item list-group-item-action fh">Computer Science</a>
+                        <a href="" class="list-group-item list-group-item-action fh">Data Science</a>
+                        <a href="" class="list-group-item list-group-item-action fh">Language Learning</a>
+                        <a href="" class="list-group-item list-group-item-action fh">Math & Logic</a>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="ps-4 pb-3"> QUICK LINKS</h6>
+                    <ul type="none pe-auto lh-1">
+                        <a href="../Pages/live class.html" class="list-group-item list-group-item-action fh">Live
+                            Class</a>
+                        <a href="" class="list-group-item list-group-item-action fh">Tuition Fees</a>
+                        <a href="" class="list-group-item list-group-item-action fh">Terms & Conditions</a>
+                        <a href="" class="list-group-item list-group-item-action fh">Privacy Policy</a>
+                        <a href="" class="list-group-item list-group-item-action fh">Support</a>
+                        <a href="" class=" list-group-item list-group-item-action fh">Career</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img src="../../Assets/images/footercircle.png" height="50px"
+                        class="align-items-top position-absolute f-animation1">
+                    <img src="../../Assets/images/footertrangle.png" height="50px"
+                        class="align-items-top position-absolute f-animation2">
+                    <img src="../../Assets/images/footerhalfcircle.png" class="align-items-bottom position-absolute ">
+                </div>
+                <div class="col-lg-6 align-items-center  border-top border-opacity-1 ">
+                    <p class=" pt-3"> &#169;2023 Copywrite versity-WPThem.Developed by MhrTheme.</p>
+                </div>
+                <div class="col-lg-5 d-flex  align-items-center border-top border-opacity-1 pb-1">
+                    <button type="button" class="btn btn-outline-secondary rounded-circle p-2 ps-3 m-2 fh"><a href="#"
+                            class=" list-group-item list-group-item-action ">
+                            <i class="fa-brands fa-facebook"></i></a></button>
+                    <button type="button" class="btn btn-outline-secondary rounded-circle p-2 pe-3 m-2 fh"><a href="#"
+                            class="list-group-item  list-group-item-action">
+                            <i class="fa-brands fa-twitter"></i></a></button>
+                    <button type="button" class="btn btn-outline-secondary rounded-circle p-2  m-2 fh"><a href="#"
+                            class="list-group-item  list-group-item-action">
+                            <i class="fa-brands fa-youtube"></i></a></button>
+                    <button type="button" class="btn btn-outline-secondary rounded-circle p-2  ps-3 m-2 fh"><a href="#"
+                            class="list-group-item  list-group-item-action">
+                            <i class="fa-brands fa-linkedin"></i></a></button>
+                    <button type="button" class="btn btn-outline-secondary rounded-circle p-2 ps-3  m-2 fh"><a href="#"
+                            class="list-group-item  list-group-item-action">
+                            <i class="fa-brands fa-skype "></i></a></button>
+                    <button type="button" class="btn btn-outline-secondary rounded-circle p-2 pe-3  m-2 fh"><a href="#"
+                            class="list-group-item  list-group-item-action">
+                            <i class="fa-brands fa-instagram"></i></a></button>
+                    <button type="button" class="btn btn-outline-secondary rounded-circle p-2 ps-3   m-2 fh"><a href="#"
+                            class="list-group-item  list-group-item-action">
+                            <i class="fa-brands fa-pinterest-p"></i></a></button>
+                    <button type="button" class="btn btn-outline-secondary rounded-circle p-2  m-2 fh"> <a href="#"
+                            class="list-group-item  list-group-item-action ">
+                            <i class="fa-brands fa-google-plus-g"></i></a></button>
+                </div>
+                <div class="col-lg-2 "></div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+   
+</body>
+
+</html>

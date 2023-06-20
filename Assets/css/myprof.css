@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mp-header_section{
+    font-size: 16px;
+    padding: 15px;
+}
+
+.mp-call_icon::before{
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+}
+
+.mp-call_icon{
+    color: blue;
+    padding: 4px;
+}
+
+.mp-a1{
+    /* padding: 12px; */
+    text-decoration: none;
+}   
+
+/* a{
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+} */
+
+.mp-i1{
+    padding: 4px;
+ }
+
+/* i{
+   padding: 4px;
+} */
+
+.mp-sub_header{
+    /* display: inline-block; */
+    /* font-size: 14px; */
+    /* margin-right: 14px; */
+    background-color:#f6f7fa ;
+
+}
+
+.mp-my-container{
+    max-width: 1920px;  
+}
+
+.mp-header_login{
+    margin-left: 350px;
+}
+
+.mp-logo{
+    padding: 5px 0;
+}
+
+.mp-ul li a:hover{
+    color: blue;
+}
+
+.mp-nav-link:hover{
+
+    text-decoration: none;
+}
+
+.mp-background-cover{
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 450px;
+
+}
+
+.mp-image{  
+    background-image: url(https://varsity.mhrtheme.com/wp-content/uploads/2022/11/breadcrumb-1.png);
+}
+
+/* h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 11px;
+
+    line-height:50px;
+    font-family: "Poppins", sans-serif; 
+} */
+
+.mp-h2-1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 11px;
+
+    line-height:50px;
+    font-family: "Poppins", sans-serif; 
+}
+
+.mp-inner-text{
+    text-align: center;
+    margin-top: 106px;
+}
+
+.mp-right_arrow::before{
+    box-sizing: content-box ;
+}
+
+.mp-inner-text-link span{
+    font-size: 16px;
+    color: #fff;
+}   
+
+.mp-content-entry{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.mp-form{
+    float: left;
+    width: 47%;
+    max-width: 50%;   
+}
+.mp-form{
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-left: auto;
+    padding: 40px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.0);
+}
+
+.mp-user-profile{
+    position: relative;
+    background: #fff;
+}
+
+.mp-form-group .mp-label{
+    font-size: 16px;
+    font-weight: 400;
+    user-select: none;
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.mp-h3-1{
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 1.4;
+}
+
+.mp-form .mp-press-form{
+    
+    margin: 0 0 20px 0;
+}
+.mp-label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    cursor: default;
+}
+
+.mp-form-group{
+    margin-bottom: 10px;
+}
+
+.mp-p1{
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #626a77;
+    font-family: "Poppins", sans-serif;
+}
+
+.mp-btn{
+    width: 100%;
+} 
+
+.mp-contents{
+    margin-top: 10px;
+    border-top: 5px solid green;
+}
+
+.mp-nav-bar-link{
+    padding: 0%;
+}
+
+.mp-container
+{
+
+    max-width: 1320px;
+}
+
+.size-1
+{
+    width: 550px;   
+}
+.size-2
+{
+    width: 600px;
+}
+
+.mp-button
+{
+    margin-bottom: 10px; 
+    width: 100%;
+}
